@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pokedex LaunchX</title>
+	<link rel="stylesheet" href="PokedexLaunchX.css">
+</head>
+<body>
+	<div class="contenedor">
+		<h1>Pokedex LaunchX</h1>
+		<img src="img/pokeball.png" alt="Pokemon" id="pokeImg"><br>
+		<div class="cont">
+			<span id="pokeNombre">Nombre:</span><br><br>
+			<span id="pokeTipo">Tipo:</span><br><br>
+			<span id="estadistica">Estadistica:</span><br><br>
+			<span id="movimientor">Movimiento:</span><br><br>
+			<span id="resultado"></span>
+		</div>
+		<input type="text" placeholder="Ingresa el nombre del Pokémon" id="Pokename" name="pokename"><br>
+		<button onclick="fetchPokemon()">Cambiar Pokémon</button><br>
+	</div>
+</body>
+<footer>
+	<script src="PokedexLaunchX.js"></script>
+</footer>
+</html>
